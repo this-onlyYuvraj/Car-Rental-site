@@ -1,0 +1,450 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Car Rental Website</title>
+  <!-- link to CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- link favicon -->
+   <link rel="shortcut icon" href="img/jeep.png" type="image/x-icon">
+
+  <!-- Box Icon -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+</head>
+
+<body>
+  <!-- header  -->
+  <header>
+    <a href="#" class="logo"><img src="img/jeep.png" alt=""></a>
+    <div class="bx bx-menu" id="menu-icon"></div>
+    <ul class="navbar">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#ride">Ride</a></li>
+      <li><a href="#services">Services</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+    </ul>
+    <div class="header-btn">
+      <a href="#" class="sign-in">Sign In</a>
+    </div>
+  </header>
+
+  <!-- Home -->
+
+  <section class="home" id="home">
+    <div class="text">
+      <h1><span>Looking</span> to rent a <br>luxurious car</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit alias odit dolorum <br> rem temporibus. Molestias
+        minima ullam dicta corrupti, quia explicabo dignissimos <br> modi quas saepe vitae voluptatem debitis, ut
+        blanditiis!</p>
+      <div class="app-stores">
+        <img src="img/ios.png" alt="">
+        <img src="img/512x512.png" alt="">
+      </div>
+    </div>
+
+    <!-- registration -->
+
+    <div class="wrapper">
+      <span class="icon-close"><ion-icon name="close-outline"></ion-icon></span>
+      <div class="sign-box up">
+        <h2>Sign-Up</h2>
+        <form action="#">
+          <div class="input-box">
+            <span class="icon"><i class='bx bxl-gmail'></i></span>
+            <input type="email" id="email" class="email" required>
+            <label for="email">Email</label>
+          </div>
+          <div class="input-box">
+            <span class="icon"><i class='bx bxs-lock-alt' ></i></span>
+            <input type="password" id="password" class="password" required>
+            <label for="password">Password</label>
+          </div>
+          <div class="remember-forgot">
+            <label><input type="checkbox">Remember me</label>
+            <a href="#">Forget Password?</a>
+          </div>
+          <button type="submit" class="login-btn">Login</button>
+          <div class="login-register">
+            <p>Don't have an account? <a href="#" class="reg-link">Register</a></p>
+            
+          </div>
+        </form>
+      </div>
+  
+      <div class="sign-box reg">
+          <h2>Registration</h2>
+          <form action="#">
+            <div class="input-box">
+              <span class="icon"><ion-icon name="person"></ion-icon></span>
+              <input type="text" id="username" required>
+              <label for="username">username</label>
+            </div>
+            <div class="input-box">
+              <span class="icon"><i class='bx bxl-gmail'></i></span>
+              <input type="email" id="email" required>
+              <label for="email">Email</label>
+            </div>
+            <div class="input-box">
+              <span class="icon"><i class='bx bxs-lock-alt' ></i></span>
+              <input type="password" id="password" required>
+              <label for="password">Password</label>
+            </div>
+            <div class="remember-forgot">
+              <label><input type="checkbox">I agree to the terms & condition</label>
+            </div>
+            <button type="submit" class="register-btn">Register</button>
+            <div class="login-register">
+              <p>Have Account? <a href="#" class="login-link">login</a></p>
+            </div>
+          </form>
+        </div>
+    </div>
+
+
+
+    <div class="book-container">
+      <form action="">
+        <div class="input-box">
+          <span>Location</span>
+          <input type="search" name="" id="" placeholder="Search Places">
+        </div>
+        <div class="input-box">
+          <span>Pick-Up Date</span>
+          <input type="date" name="" id="">
+        </div>
+        <div class="input-box">
+          <span>Return Date</span>
+          <input type="date" name="" id="">
+        </div>
+        <input type="submit" value="submit" class="btn" placeholder="submit">
+      </form>
+    </div>
+  </section>
+
+  <!-- Ride  -->
+
+  <section class="ride" id="ride">
+    <div class="heading">
+      <span>How It Work</span>
+      <h1>Rent With 3 Easy Steps</h1>
+    </div>
+
+    <div class="ride-container">
+      <div class="box">
+        <i class='bx bx-map'></i>
+        <h2>Choose A Location</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia sapiente eligendi corrupti. Expedita voluptatibus, repellendus voluptates quaerat ab dolores quae, molestiae tempora maxime nemo doloribus quos! Sint saepe repellendus sunt.</p>
+      </div>
+
+      <div class="box">
+        <i class='bx bxs-calendar-check'></i>
+        <h2>Pick-Up Date</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia sapiente eligendi corrupti. Expedita voluptatibus, repellendus voluptates quaerat ab dolores quae, molestiae tempora maxime nemo doloribus quos! Sint saepe repellendus sunt.</p>
+      </div>
+
+      <div class="box">
+        <i class='bx bxs-car'></i>
+        <h2>Book A Car</h2>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia sapiente eligendi corrupti. Expedita voluptatibus, repellendus voluptates quaerat ab dolores quae, molestiae tempora maxime nemo doloribus quos! Sint saepe repellendus sunt.</p>
+      </div>
+
+      
+    </div>
+  </section>
+
+  <!-- Services -->
+
+   <section class="services" id="services">
+    <div class="heading">
+      <span>Best Services</span>
+      <h1>Explore Out-top Deals <br> From Top Rated Dealers</h1>
+    </div>
+    <div class="services-container">
+      <div class="box">
+        <div class="box-img">
+          <img src="img/car1.jpg" alt="">
+        </div>
+        <p>2017</p>
+        <h3>2018 Honda Civic</h3>
+        <h2>₹195999 |  ₹15699 <span>/month</span></h2>
+        <a href="#" class="btn">Rent Now</a>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="img/car2.jpg" alt="">
+        </div>
+        <p>2017</p>
+        <h3>2018 Honda Civic</h3>
+        <h2>₹195999 |  ₹15699 <span>/month</span></h2>
+        <a href="#" class="btn">Rent Now</a>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="img/car3.jpg" alt="">
+        </div>
+        <p>2017</p>
+        <h3>2018 Honda Civic</h3>
+        <h2>₹195999 |  ₹15699 <span>/month</span></h2>
+        <a href="#" class="btn">Rent Now</a>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="img/car5.jpg" alt="">
+        </div>
+        <p>2017</p>
+        <h3>2018 Honda Civic</h3>
+        <h2>₹195999 |  ₹15699 <span>/month</span></h2>
+        <a href="#" class="btn">Rent Now</a>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="img/car6.jpg" alt="">
+        </div>
+        <p>2017</p>
+        <h3>2018 Porche</h3>
+        <h2>₹195999 |  ₹15699 <span>/month</span></h2>
+        <a href="#" class="btn">Rent Now</a>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="img/aston-maaston martin DB11.jpg" alt="">
+        </div>
+        <p>2017</p>
+        <h3>2018 Aston Martin DB11</h3>
+        <h2>₹195999 |  ₹15699 <span>/month</span></h2>
+        <a href="#" class="btn">Rent Now</a>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="img/car4.jpg" alt="">
+        </div>
+        <p>2017</p>
+        <h3>2018 Honda Civic</h3>
+        <h2>₹195999 |  ₹15699 <span>/month</span></h2>
+        <a href="#" class="btn">Rent Now</a>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="img/bmw.jpg" alt="">
+        </div>
+        <p>2017</p>
+        <h3>2018 BMW</h3>
+        <h2>₹195999 |  ₹15699 <span>/month</span></h2>
+        <a href="#" class="btn">Rent Now</a>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="img/gWagon.jpg" alt="">
+        </div>
+        <p>2017</p>
+        <h3>2018 G Wagon</h3>
+        <h2>₹195999 |  ₹15699 <span>/month</span></h2>
+        <a href="#" class="btn">Rent Now</a>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="img/mazada mx5.jpg" alt="">
+        </div>
+        <p>2017</p>
+        <h3>2018 Mazada MX5</h3>
+        <h2>₹195999 |  ₹15699 <span>/month</span></h2>
+        <a href="#" class="btn">Rent Now</a>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="img/mercedes AMG GT.jpg" alt="">
+        </div>
+        <p>2017</p>
+        <h3>2018 Mercedes AMG GT</h3>
+        <h2>₹195999 |  ₹15699 <span>/month</span></h2>
+        <a href="#" class="btn">Rent Now</a>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="img/Covertte.jpg" alt="">
+        </div>
+        <p>2017</p>
+        <h3>2018 Covertte</h3>
+        <h2>₹195999 |  ₹15699 <span>/month</span></h2>
+        <a href="#" class="btn">Rent Now</a>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="img/gemera.jpg" alt="">
+        </div>
+        <p>2017</p>
+        <h3>2018 Gemera</h3>
+        <h2>₹195999 |  ₹15699 <span>/month</span></h2>
+        <a href="#" class="btn">Rent Now</a>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="img/zonda R.jpg" alt="">
+        </div>
+        <p>2017</p>
+        <h3>2018 Pagani Zonda R</h3>
+        <h2>₹195999 |  ₹15699 <span>/month</span></h2>
+        <a href="#" class="btn">Rent Now</a>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="img/centodieci.jpg" alt="">
+        </div>
+        <p>2017</p>
+        <h3>2018 Cento Dieci</h3>
+        <h2>₹195999 |  ₹15699 <span>/month</span></h2>
+        <a href="#" class="btn">Rent Now</a>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="img/la rose noire.jpg" alt="">
+        </div>
+        <p>2017</p>
+        <h3>2018 La Rose Noire</h3>
+        <h2>₹195999 |  ₹15699 <span>/month</span></h2>
+        <a href="#" class="btn">Rent Now</a>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="img/mini cooper.jpg" alt="">
+        </div>
+        <p>2017</p>
+        <h3>2018 Mini Cooper</h3>
+        <h2>₹195999 |  ₹15699 <span>/month</span></h2>
+        <a href="#" class="btn">Rent Now</a>
+      </div>
+
+      <div class="box">
+        <div class="box-img">
+          <img src="img/bentley.jpg" alt="">
+        </div>
+        <p>2017</p>
+        <h3>2018 Bentley</h3>
+        <h2>₹195999 |  ₹15699 <span>/month</span></h2>
+        <a href="#" class="btn">Rent Now</a>
+      </div>
+    </div>
+   </section>
+
+   <!-- About -->
+
+    <section class="about" id="about">
+      <div class="heading">
+        <span>About Us</span>
+        <h1>Best Customer Experience</h1>
+      </div>
+      <div class="about-container">
+        <div class="about-img">
+          <img src="img/about.png" alt="">
+        </div>
+        <div class="about-text">
+          <span>About Us</span>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere soluta quasi molestias, repellendus placeat quibusdam tenetur? Quo, consectetur, fugit minima sapiente hic beatae, deserunt laborum libero architecto non perferendis quasi.
+          Nesciunt magni dicta consequuntur officia provident fugiat, totam quasi amet sit soluta, adipisci mollitia blanditiis et sapiente repellendus! Amet, eligendi accusamus molestiae ad nemo ratione?</p>
+          <a href="#" class="btn">Learn More</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- review -->
+
+    <section class="reviews" id="reviews">
+      <div class="heading">
+        <span>Reviews</span>
+        <h1>What Our Customer Say </h1>
+      </div>
+      <div class="reviews-container">
+        <div class="box">
+          <div class="reviews-img">
+            <img src="img/rev1.jpg" alt="">
+          </div>
+          <h2>Someone Name</h2>
+          <div class="stars">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star-half' ></i>
+          </div>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quam ex aliquid est quod tenetur, atque veniam eos aliquam quo sapiente cupiditate sed eligendi et blanditiis inventore pariatur necessitatibus? Nisi, possimus?</p>
+        </div>
+        <div class="box">
+          <div class="reviews-img">
+            <img src="img/rev2.jpg" alt="">
+          </div>
+          <h2>Someone Name</h2>
+          <div class="stars">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star-half' ></i>
+          </div>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste dolores alias, voluptates culpa magnam enim repudiandae quos eligendi, eius amet aliquid, quod numquam eos ratione ducimus quis optio assumenda eveniet.</p>
+        </div>
+        <div class="box">
+          <div class="reviews-img">
+            <img src="img/rev3.jpg" alt="">
+          </div>
+          <h2>Someone Name</h2>
+          <div class="stars">
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star'></i>
+            <i class='bx bxs-star-half' ></i>
+          </div>
+          <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Doloribus a impedit, fugit laboriosam exercitationem cupiditate dolor quaerat odit maxime modi laudantium harum dicta odio porro ex tenetur culpa dolore facilis.</p>
+        </div>
+      </div>
+    </section>
+
+  <!-- NewsLetters -->
+
+  <section class="newsletter">
+    <h2>Subscribe To NewsLetters</h2>
+    <div class="box">
+      <input type="email" placeholder="Enter Your Email...">
+      <a href="#" class="btn">Subscribe</a>
+    </div>
+  </section> 
+  <div class="copyright">
+    <p>&#169; Yuvraj All Right Reserved</p>
+    <div class="social">
+      <a href="#"><i class='bx bxl-facebook'></i></a>
+      <a href="#"><i class='bx bxl-twitter'></i></a>
+      <a href="#"><i class='bx bxl-instagram'></i></a>
+    </div>
+  </div>
+
+
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+  <!-- <script src="https://unpkg.com/scrollreveal"></script> -->
+
+  <!-- link To JS -->
+  <script src="main.js"></script> 
+</body>
+
+</html>
